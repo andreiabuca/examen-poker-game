@@ -21,7 +21,7 @@ const cardImages: { [key: string]: string } = {
     '9spades': '/images/nine-spades.jpg',
     '10spades': '/images/ten-spades.jpg',
     'Jspades': '/images/j-spades.jpg',
-    'Qspades': '/images/q-spades.jpg',
+    'Qspades': '/images/d-spades.jpg',
     'Kspades': '/images/r-spades.jpg',
     'Aspades': '/images/a-spades.jpg',
     '7diamonds': '/images/seven-diamonds.jpg',

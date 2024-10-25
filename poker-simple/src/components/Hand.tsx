@@ -12,9 +12,10 @@ const Hand: React.FC<HandProps> = ({ isPlayer, hand, isFaceDown }) => {
         <div className="hand">
             <h2 className={`hand-title ${isPlayer ? "player-title" : "computer-title"}`}>
                 {isPlayer ? "Computer's Hand" : "Player's Hand"}
-            </h2>            <div className="card-container">
+            </h2>
+            <div className="card-container">
                 {hand.map((card, index) => (
-                    <div key={index} className="card">
+                    <div key={`${card.rank}-${card.suit}`} className="card">
                         {isFaceDown ? (
                             <img src="/images/back-card.jpg" alt="Card Back" />
                         ) : (
